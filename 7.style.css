@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: darkmagenta;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.images div{
+    width: 320px;
+    color: white;
+    margin: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    flex-grow: 1;
+}
